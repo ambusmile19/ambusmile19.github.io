@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Ambili A.R</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background: #f7f7f7;
+        }
+        h2 {
+            color: #333;
+            border-left: 5px solid #6a0dad;
+            padding-left: 10px;
+        }
+        h3 {
+            color: #4b4b4b;
+            margin-top: 25px;
+        }
+        ul {
+            margin-left: 25px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section">
+        <h2>Projects Guided</h2>
+
+        <p><strong>B.Tech Projects Guided:</strong> 47</p>
+        <p><strong>M.Tech Projects Guided:</strong> 5</p>
+    </div>
+
+    <div class="section">
+        <h3>Own Projects</h3>
+        <ul>
+            <li>Developed an Internet Banking system (Java 2.0, Servlets). Duration: 6 Months.</li>
+            <li>Designed and developed 2D DCT architecture using shift-register based transposition in FPGA. Duration: 4 Months.</li>
+            <li>Metal shrapnel detection system in human body (ATXMEGA 128 A1U Embedded). Duration: 6 Months.</li>
+            <li>Automated imageless evaluation system for arterial compliance using HAAR Wavelets (2013). Duration: 6 Months.</li>
+            <li>Real-time image compression using DSP Processor ADSP 21061. Duration: 6 Months.</li>
+            <li>Designed and developed a Tele-Remote System. Duration: 3 Months.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>M.Tech Project Titles (Image Processing)</h3>
+        <ul>
+            <li>No Reference Quality Assessment Noise Distorted Image (2020)</li>
+            <li>A Comparative Study of LDA-Fusion and PCA-Fusion for Facial Expression Recognition (2021)</li>
+            <li>Motion Video KNN-SVD Denoising Algorithm (2017)</li>
+            <li>Secure Analog Joint Source Channel Coding for Image Transmission (2017)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>B.Tech Project Titles</h3>
+
+        <h4>A. Deep Learning Based Projects</h4>
+
+        <h4>a) Speech Based Projects</h4>
+        <ul>
+            <li>Voice-based Emotion Classification</li>
+            <li>Suraksha Device — Speech Emotion Recognition</li>
+            <li>A CNN-powered Surveillance System for Real-time Detection of Offensive Language</li>
+            <li>A Multimodal Fusion System Using Image & Audio for Effective Bird Detection in Agriculture</li>
+        </ul>
+
+        <h4>b) Image Based Projects</h4>
+        <ul>
+            <li>Embedded Device for ISL Sign Language Classification</li>
+            <li>Sign Language Classification</li>
+            <li>Dog Breed Classification</li>
+            <li>Project models developed for FISAT (2017–2018)</li>
+        </ul>
+
+        <h4>B. Image Processing Projects</h4>
+        <ul>
+            <li>Rain Streak Removal</li>
+            <li>Gesture Identification</li>
+            <li>Canteen Table Cleaner using Image Processing</li>
+            <li>Identification of Letters Written on Board</li>
+        </ul>
+
+        <h4>C. Speech Processing Projects</h4>
+        <ul>
+            <li>Text-to-Speech Processing</li>
+            <li>Speech Recognition</li>
+        </ul>
+
+        <h4>D. NLP Based Projects</h4>
+        <ul>
+            <li>CERTEDETECTRON V 2.0 — Automated Certificate Classification using Deep Learning (2021)</li>
+            <li>CERTEDETE — Certificate Classification using Machine Learning (2020)</li>
+        </ul>
+
+        <h4>E. Embedded System Based Projects</h4>
+        <ul>
+            <li>GIFTEE-STRING-EMBEDDART — String Art Image Generation (2022)</li>
+            <li>Indoor Path Finder (2020)</li>
+            <li>Indoor Asset Tracking (2018)</li>
+            <li>FISAT Layout Model (2018)</li>
+            <li>Bus Bay Automation (2018)</li>
+            <li>KTU Exam Cell Automation (2018)</li>
+            <li>Automatic Bus Ticket Calculation (2018)</li>
+            <li>Automatic Canteen Bill Generation (2018)</li>
+            <li>Digital Watermarking (2018)</li>
+            <li>Smart Trolley System (2018)</li>
+            <li>Automatic Sudoku Solving (2017)</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
