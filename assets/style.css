@@ -46,28 +46,32 @@ body {
     padding: 40px;
     background-color: white;
     min-height: 100vh;
+
+    /* ensures top-right photo is placed relative to this box */
+    position: relative;
 }
 
-/* ==== IMAGE FLOAT RIGHT FOR ABOUT PAGE ==== */
+/* ===== FIXED PHOTO AT TOP RIGHT ===== */
 
 .about-image {
-    float: right;
-    width: 220px;          /* adjust image size */
-    margin-left: 20px;
-    margin-bottom: 20px;
+    position: absolute;
+    top: 40px;      /* matches content padding */
+    right: 40px;
+    width: 180px;   /* adjust size as needed */
 }
 
 .about-image img {
     width: 100%;
     height: auto;
-    border-radius: 10px;   /* optional styling */
+    border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* ==== MOBILE FRIENDLY ==== */
+/* ===== MOBILE FRIENDLY ===== */
 
 @media (max-width: 768px) {
+
     .content {
         margin-left: 0;
         padding: 20px;
@@ -80,8 +84,8 @@ body {
     }
 
     .about-image {
-        float: none;
-        width: 200px;
+        position: static;
+        width: 180px;
         margin: 0 auto 20px auto;
         display: block;
     }
